@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Realease Notes &mdash; hls4ml 0.5.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Status and Features" href="status.html" />
+    <link rel="prev" title="Welcome to hls4ml’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #2980B9" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/hls4ml_logo_navbar.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="index.html">Home</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Realease Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="status.html">Status and Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup.html">Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command.html">Command Line Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts.html">Concepts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Reference and Contributors</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Quick API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/hls-model.html">HLS Model Class</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/profiling.html">Profiling</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">hls4ml</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Realease Notes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="realease-notes">
+<h1>Realease Notes<a class="headerlink" href="#realease-notes" title="Permalink to this headline">¶</a></h1>
+<p>Go to <a class="reference external" href="https://github.com/hls-fpga-machine-learning/hls4ml/releases">here</a> for official releases on Github.</p>
+<p><strong>v0.3.0</strong></p>
+<ul class="simple">
+<li><p>Installing from <code class="docutils literal notranslate"><span class="pre">PyPI</span></code></p></li>
+<li><p>Create configuration dictionary from model object</p></li>
+<li><p>Run ‘C Simulation’ from Python with <code class="docutils literal notranslate"><span class="pre">hls_model.predict(X)</span></code></p></li>
+<li><p>Trace model layer output with <code class="docutils literal notranslate"><span class="pre">hls_model.trace(X)</span></code></p></li>
+<li><p>Write HLS project, run synthesis flow from Python</p></li>
+<li><p>QKeras support: convert models trained using layers and quantizers from QKeras</p></li>
+<li><p>Example models moved to separate repo, added API to retrieve them</p></li>
+<li><p>New Softmax implementations</p></li>
+<li><p>Minor fixes: weights exported at higher precision, concatenate layer shape corrected</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>v0.2.0:</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">tf_to_hls</span></code> tool for converting tensorflow models (protobufs <code class="docutils literal notranslate"><span class="pre">.pb</span></code>)</p></li>
+<li><p>Support for larger <code class="docutils literal notranslate"><span class="pre">Conv1D/2D</span></code> layers</p></li>
+<li><p>Support for binary and ternary layers from <a class="reference external" href="https://github.com/google/qkeras">QKeras</a>.</p></li>
+<li><p>API enhancements (custom layers, multiple backends)</p></li>
+<li><p><a class="reference internal" href="api/profiling.html"><span class="doc">Profiling</span></a> support</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">hls4ml</span> <span class="pre">report</span></code>command to gather HLS build reports, <code class="docutils literal notranslate"><span class="pre">hls4ml</span> <span class="pre">build</span> <span class="pre">-l</span></code> for Logic Synthesis</p></li>
+<li><p>Support for all-in-one Keras’s <code class="docutils literal notranslate"><span class="pre">.h5</span></code> files (obtained with Keras’s <code class="docutils literal notranslate"><span class="pre">save()</span></code> function, without the need for separate <code class="docutils literal notranslate"><span class="pre">.json</span></code> and <code class="docutils literal notranslate"><span class="pre">.h5</span></code> weight file).</p></li>
+<li><p>Fused Batch Normalisation into Dense layer optimsation.</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>v0.1.6:</strong></p>
+<ul class="simple">
+<li><p>Support for larger Dense layers (enabled with Strategy: Resource in the configuration file)</p></li>
+<li><p>Binary/Ternary NN refinements</p></li>
+<li><p>Built-in optimization framework</p></li>
+<li><p>Optional C/RTL validation</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>v0.1.5</strong>: Per-layer precision and reuse factor</p>
+<hr class="docutils" />
+<p><strong>v0.1.3</strong>: Adding PyTorch support</p>
+<hr class="docutils" />
+<p><strong>v0.1.2</strong>: First beta release</p>
+<ul class="simple">
+<li><p>some bug fixes for pipelining and support for layer types</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>v0.0.2</strong>: first alpha release</p>
+<ul class="simple">
+<li><p>full translation of DNNs from Keras</p></li>
+<li><p>an example Conv1D exists</p></li>
+<li><p>parallel mode is supported (serial mode, not yet)</p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="status.html" class="btn btn-neutral float-right" title="Status and Features" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to hls4ml’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Fast Machine Learning Lab
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
