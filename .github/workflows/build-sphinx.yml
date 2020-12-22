@@ -3,6 +3,7 @@ on:
   push:
     branches:    
       - master
+      - sphinx-docs
 
 jobs:
   build:
