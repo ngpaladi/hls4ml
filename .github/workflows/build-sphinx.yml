@@ -3,7 +3,6 @@ on:
   push:
     branches:    
       - master
-      - sphinx-docs
 
 jobs:
   build:
@@ -12,8 +11,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-      with:
-        ref: 'sphinx-doc'
     - uses: ammaraskar/sphinx-action@master
       with:
         docs-folder: "sphinx-docs/"
