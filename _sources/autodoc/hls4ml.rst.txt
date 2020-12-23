@@ -1,11 +1,10 @@
-hls4ml
+hls4ml package
 ==============
 
 Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
 
    hls4ml.converters
    hls4ml.model

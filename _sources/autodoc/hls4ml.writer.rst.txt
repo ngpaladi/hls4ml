@@ -1,4 +1,4 @@
-hls4ml.writer
+hls4ml.writer package
 =====================
 
 Submodules
@@ -19,6 +19,7 @@ hls4ml.writer.writers module
    :members:
    :undoc-members:
    :show-inheritance:
+
 
 Module contents
 ---------------

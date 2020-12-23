@@ -1,4 +1,4 @@
-hls4ml.report
+hls4ml.report package
 =====================
 
 Submodules
@@ -11,6 +11,7 @@ hls4ml.report.vivado\_report module
    :members:
    :undoc-members:
    :show-inheritance:
+
 
 Module contents
 ---------------

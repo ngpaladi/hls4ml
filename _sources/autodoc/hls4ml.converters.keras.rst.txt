@@ -1,4 +1,4 @@
-hls4ml.converters.keras
+hls4ml.converters.keras package
 ===============================
 
 Submodules
@@ -75,6 +75,7 @@ hls4ml.converters.keras.reshaping module
    :members:
    :undoc-members:
    :show-inheritance:
+
 
 Module contents
 ---------------

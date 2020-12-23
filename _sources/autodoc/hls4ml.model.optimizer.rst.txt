@@ -1,11 +1,10 @@
-hls4ml.model.optimizer
+hls4ml.model.optimizer package
 ==============================
 
 Subpackages
 -----------
 
 .. toctree::
-   :maxdepth: 4
 
    hls4ml.model.optimizer.passes
 
@@ -19,6 +18,7 @@ hls4ml.model.optimizer.optimizer module
    :members:
    :undoc-members:
    :show-inheritance:
+
 
 Module contents
 ---------------

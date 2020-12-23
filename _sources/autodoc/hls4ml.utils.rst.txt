@@ -1,4 +1,4 @@
-hls4ml.utils
+hls4ml.utils package
 ====================
 
 Submodules
@@ -27,6 +27,7 @@ hls4ml.utils.plot module
    :members:
    :undoc-members:
    :show-inheritance:
+
 
 Module contents
 ---------------
